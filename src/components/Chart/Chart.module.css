@@ -1,0 +1,11 @@
+.container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 100%;
+  }
+}
