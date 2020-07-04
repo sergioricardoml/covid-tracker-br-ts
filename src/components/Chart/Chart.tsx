@@ -54,18 +54,18 @@ const Chart: React.FC<PropsFetched> = (props: PropsFetched) => {
         datasets: [
           {
             label: 'Infectados',
-            backgroundColor: ['rgba(62, 193, 65, 0.6)'],
-            borderWidth: 2,
-            borderColor: ['rgba(62, 193, 65, 0.6)'],
-            hoverBorderColor: ['rgba(62, 193, 65, 1)'],
-            data: [brConfirmed],
-          },
-          {
-            label: 'Recuperados',
             backgroundColor: ['rgba(65, 62, 193, 0.6)'],
             borderWidth: 2,
             borderColor: ['rgba(65, 62, 193, 0.6)'],
             hoverBorderColor: ['rgba(65, 62, 193, 1)'],
+            data: [brConfirmed],
+          },
+          {
+            label: 'Recuperados',
+            backgroundColor: ['rgba(62, 193, 65, 0.6)'],
+            borderWidth: 2,
+            borderColor: ['rgba(62, 193, 65, 0.6)'],
+            hoverBorderColor: ['rgba(62, 193, 65, 1)'],
             data: [brRecovered],
           },
           {
@@ -100,18 +100,18 @@ const Chart: React.FC<PropsFetched> = (props: PropsFetched) => {
         datasets: [
           {
             label: 'Infectados',
-            backgroundColor: ['rgba(62, 193, 65, 0.5)'],
-            borderWidth: 2,
-            borderColor: ['rgba(62, 193, 65, 0.5)'],
-            hoverBorderColor: ['rgba(62, 193, 65, 1)'],
-            data: [ufConfirmed],
-          },
-          {
-            label: 'Recuperados',
             backgroundColor: ['rgba(65, 62, 193, 0.5)'],
             borderWidth: 2,
             borderColor: ['rgba(65, 62, 193, 0.5)'],
             hoverBorderColor: ['rgba(65, 62, 193, 1)'],
+            data: [ufConfirmed],
+          },
+          {
+            label: 'Recuperados',
+            backgroundColor: ['rgba(62, 193, 65, 0.5)'],
+            borderWidth: 2,
+            borderColor: ['rgba(62, 193, 65, 0.5)'],
+            hoverBorderColor: ['rgba(62, 193, 65, 1)'],
             data: [ufRecovered],
           },
           {
